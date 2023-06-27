@@ -36,7 +36,8 @@ $border: .2rem solid $black;
       border-radius: .5rem;
       overflow: hidden;
       position: relative;
-      width: 60%;
+      width: 320px;
+      height: 220px;
       object-fit: cover;
       }
 
@@ -44,10 +45,10 @@ $border: .2rem solid $black;
       width: 100%;
 
       .card-title {
-        font-size: 1.5rem;
+        font-size: 1rem;
         color: $black;
-        font-weight: 700;
-        text-transform: uppercase;
+        font-weight: 500;
+   
       }
 
       .card-text {
@@ -55,9 +56,10 @@ $border: .2rem solid $black;
         flex-direction: column;
 
         .name-card {
-          font-size: 1rem;
+          font-size: 1.5rem;
           color: $black;
-          font-weight: 500;
+          font-weight: 700;
+          text-transform: uppercase;
           
         }:hover {
           color: $pink;

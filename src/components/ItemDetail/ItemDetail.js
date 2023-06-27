@@ -27,7 +27,7 @@ const ItemDetail = ({ item }) => {
 
     <div className='box'>
 
-      <img src={item.imagen} className='image' alt={item.name} />
+      <img src={item.imagen} className='image' alt={item.nombre} />
       <div className='content'>
         <h2 className='title'>{item.nombre}</h2>
         <div className='text'>
