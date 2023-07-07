@@ -1,7 +1,7 @@
 import CartWidget from '../CartWidget/CartWidget'
 import './NavBar.scss'
 import { Link } from 'react-router-dom'
-import logo from './Assets/NOCKTA Titulo.png'
+import logo from './Assets/NOCKTA TITULO CLARO.png'
 
 
 const NavBar = () => {

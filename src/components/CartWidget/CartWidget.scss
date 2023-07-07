@@ -1,4 +1,4 @@
-$pink: #e84393;
+$brown: #EC9B6A;
 $black: #333;
 $white: #fff;
 $light-color: #666;
@@ -11,12 +11,12 @@ $border: 0.2rem solid $black;
   opacity: 0;
   display: block;
   font-size: 2rem;
-  color: $black;
+  color: $white;
   cursor: pointer;
   margin: 1.8rem auto;
 
   &:hover {
-    color: $pink;
+    color: $brown;
   }
 }
 
